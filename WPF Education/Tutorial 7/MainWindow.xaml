@@ -1,0 +1,28 @@
+﻿<Window x:Class="Tutorial_7.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:CustomUserControls="clr-namespace:Tutorial_7.Views.CustomUserControls"
+        
+        
+        mc:Ignorable="d"
+        Title="MainWindow" Height="400" Width="300">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Name="row1MainWindow"  Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            
+        </Grid.RowDefinitions>
+        <CustomUserControls:ClearableTextBox Grid.Row="0" Width="250" Height="40" Placeholder="First Name"></CustomUserControls:ClearableTextBox>
+        <CustomUserControls:ClearableTextBox Grid.Row="1" Width="250" Height="40" Placeholder="Last Name"></CustomUserControls:ClearableTextBox>
+        <CustomUserControls:ClearableTextBox Grid.Row="2" Width="250" Height="40" Placeholder="Address" ></CustomUserControls:ClearableTextBox>
+        <CustomUserControls:ClearableTextBox Grid.Row="3" Width="250" Height="40"></CustomUserControls:ClearableTextBox>
+        <CustomUserControls:ClearableTextBox Grid.Row="4" Width="250" Height="40"></CustomUserControls:ClearableTextBox>
+
+    </Grid>
+</Window>

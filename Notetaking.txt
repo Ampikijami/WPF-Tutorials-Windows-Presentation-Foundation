@@ -1,0 +1,14 @@
+WPF - windows presentation foundation
+- for windows desktop applications : like visual studio
+- WPF gives easy access to 
+- built into .net and compatible with all C# code written
+- build XAML to build interface user can work with
+
+--instead of console.writeline we use 
+<Grid>
+	<TextBlock>Hello World!</TextBlock>
+</Grid>
+
+typing propfull tab tab gives you a property and it's appropriate getter/setter
+
+
